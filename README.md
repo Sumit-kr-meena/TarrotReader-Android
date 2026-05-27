@@ -33,10 +33,6 @@ TarotReader is an Android app built with Kotlin and Jetpack Compose that allows 
 
 Clone the repository:
 
-```bash
-git clone https://github.com/yourusername/TarotReader.git
-```
-
 Open the project in Android Studio and run the app on an emulator or physical device.
 
 ---
