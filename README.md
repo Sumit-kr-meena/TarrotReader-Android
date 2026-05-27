@@ -45,11 +45,42 @@ Open the project in Android Studio and run the app on an emulator or physical de
 
 ```text
 app/
-├── ui/
-├── screens/
-├── components/
+├── manifests/
+│   └── AndroidManifest.xml
+│
+├── kotlin+java/com.example.tarotreader/
+│
 ├── data/
-└── utils/
+│   └── TarotDeck.kt
+│
+├── domain/
+│   └── TarotReadingGenerator.kt
+│
+├── model/
+│   └── TarotCard.kt
+│
+├── navigation/
+│   ├── graphs/
+│   │   ├── MainNavGraph.kt
+│   │   └── SplashNavGraph.kt
+│   │
+│   ├── App.kt
+│   ├── AppNavHost.kt
+│   ├── Graph.kt
+│   └── Routes.kt
+│
+├── ui/
+│   ├── screens/
+│   │   ├── HomeScreen.kt
+│   │   └── SplashScreen.kt
+│   │
+│   └── theme/
+│       ├── Color.kt
+│       ├── SystemBarStyle.kt
+│       ├── Theme.kt
+│       └── Type.kt
+│
+└── MainActivity.kt
 ```
 
 ---
