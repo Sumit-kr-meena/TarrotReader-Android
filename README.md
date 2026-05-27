@@ -15,11 +15,10 @@ TarotReader is an Android app built with Kotlin and Jetpack Compose that allows 
 ## 📱 Screenshots
 
 ### Home Screen
-![Home Screen](screenshots/home.png)
+<img src="screenshots/home.png" width="250"/>
 
 ### Interpretation Screen
-![Interpretation](screenshots/interpretation.png)
-
+<img src="screenshots/interpretation.png" width="250"/>
 ---
 
 ## 🛠️ Tech Stack
